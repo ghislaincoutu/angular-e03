@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import "styles/components.scss";
 @import "styles/grid.scss";
+@import "styles/forms.scss";
 @import "styles/effects.scss";
 
 * {
@@ -108,5 +108,6 @@ footer p {
   background-color: #80cfcf;
   button {
     margin-right: 5px;
+    border-color: #009f9f;
   }
 }

@@ -6,7 +6,7 @@ https://ghislaincoutu.ca/r002/angular-e03
 ## Packet NPM à installer
 - npm install angular-in-memory-web-api
 
-## Commandes Angular pour générer les composants de l'exercice
+## Commandes Angular à exécuter pour générer les composants de l'exercice
 REMARQUE : Avant de générer la commande suivante, il faut supprimer le fichier app-routing.module.ts.
 - ng generate module app-routing --flat --module=app
 
