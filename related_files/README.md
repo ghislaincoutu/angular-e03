@@ -1,5 +1,5 @@
 # angular-e03 &mdash; Reproduction de l'exercice officiel de Angular
-[README](../README.md)
+[README](../README.md) &mdash; Angular
 
 ## Démonstration
 https://ghislaincoutu.ca/r002/angular-e03
