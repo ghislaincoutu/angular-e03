@@ -1,0 +1,27 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <h1>Mes héros</h1>
+      <div>
+        <label for="new-hero">Nom du héro</label>
+        <input id="new-hero" #heroName>
+        <!-- (click) passes input value to add() and then clears the input -->
+        <div class="controls">
+          <button class="add-button" (click)="add(heroName.value); heroName.value=''">Ajouter un héro</button>
+        </div>
+      </div>
+      <ul class="heroes">
+        <li *ngFor="let hero of heroes">
+          <a routerLink="/detail/{{hero.id}}"><span class="badge">{{hero.id}}</span> {{hero.name}}</a>
+          <button class="delete" title="delete hero" (click)="delete(hero)"><i class="fas fa-trash"></i></button>
+        </li>
+      </ul>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <h2>Messages</h2>
+      <div class="message01">
+        <app-messages></app-messages>
+      </div>
+    </aside>
+  </div>
+</main>

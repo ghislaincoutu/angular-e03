@@ -1,0 +1,17 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <h1>Les meilleurs héros</h1>
+      <div class="heroes-menu">
+        <a *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}">{{hero.name}}</a>
+      </div>
+      <app-hero-search></app-hero-search>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <h2>Messages</h2>
+      <div class="message01">
+        <app-messages></app-messages>
+      </div>
+    </aside>
+  </div>
+</main>

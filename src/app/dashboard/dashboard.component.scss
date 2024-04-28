@@ -1,0 +1,39 @@
+.heroes-menu {
+  margin: 0 0 20px 0;
+  padding: 8px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+  background-color: #80cfcf;
+}
+a {
+  display: inline-block;
+  margin: 5px auto;
+  padding: 10px 5px;
+  width: 100%;
+  min-width: 120px;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  color: #fff;
+  background-color: #000;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  background-color: #9f0000;
+}
+
+@media (min-width: 400px) {
+  a {
+    box-sizing: content-box;
+    width: 18%;
+  }
+}

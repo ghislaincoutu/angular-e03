@@ -1,0 +1,23 @@
+<main>
+  <div class="row container color02 firstrow">
+    <section class="col-lg-07 col-md-12 animated01 fadein">
+      <div *ngIf="hero">
+        <h1>Détails relatifs à {{hero.name | uppercase}}</h1>
+        <div class="id01">Identifiant : <span>{{hero.id}}</span></div>
+        <div>
+          <label for="hero-name">Nom du héro</label>
+          <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name">
+        </div>
+        <div class="controls">
+          <button (click)="goBack()">Retour</button> <button (click)="save()">Enregistrer</button>
+        </div>
+      </div>
+    </section>
+    <aside class="col-lg-05 col-md-12 animated01 fadein">
+      <h2>Messages</h2>
+      <div class="message01">
+        <app-messages></app-messages>
+      </div>
+    </aside>
+  </div>
+</main>
