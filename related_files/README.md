@@ -8,6 +8,7 @@ https://ghislaincoutu.ca/d002/angular-e03
 ```sh
 npm install angular-in-memory-web-api
 ```
+À chaque changement de version (exemple de 20 à 21), il faut désinstaller l'application `angular-in-memory-web-api` avant de procéder au changement de version. Il faut réinstaller l'application après avoir migré le code dans la nouvelle version.
 
 ## Commandes Angular à exécuter pour générer les composants de l'exercice
 REMARQUE : Avant de générer la commande suivante, il faut supprimer le fichier app-routing.module.ts.
