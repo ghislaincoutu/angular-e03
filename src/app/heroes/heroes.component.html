@@ -11,10 +11,12 @@
         </div>
       </div>
       <ul class="heroes">
-        <li *ngFor="let hero of heroes">
-          <a routerLink="/detail/{{hero.id}}"><span class="badge">{{hero.id}}</span> {{hero.name}}</a>
-          <button class="delete" title="delete hero" (click)="delete(hero)"><i class="fas fa-trash"></i></button>
-        </li>
+        @for (hero of heroes; track hero) {
+          <li>
+            <a routerLink="/detail/{{hero.id}}"><span class="badge">{{hero.id}}</span> {{hero.name}}</a>
+            <button class="delete" title="delete hero" (click)="delete(hero)"><i class="fas fa-trash"></i></button>
+          </li>
+        }
       </ul>
     </section>
     <aside class="col-lg-05 col-md-12 animated01 fadein">
