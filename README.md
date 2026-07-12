@@ -1,4 +1,5 @@
 # angular-e03 &mdash; Reproduction de l'exercice officiel de Angular
+<img src="related-files/medias/angular-e03.png" alt="Aperçu de l’interface" style="max-width:1000px;">
 
 ## Démonstration
 https://ghislaincoutu.ca/d002/angular-e03
