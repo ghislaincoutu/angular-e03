@@ -1,6 +1,6 @@
-# angular03
+# Angular03
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.18.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.25.
 
 ## Development server
 
